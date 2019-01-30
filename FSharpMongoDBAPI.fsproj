@@ -6,7 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Program.fs" />
+    <Compile Include="src/Todo.fs" />
+    <Compile Include="src/TodoHttp.fs" />
+    <Compile Include="src/TodoInMemory.fs" />
+    <Compile Include="src/TodoMongoDB.fs" />
+    <Compile Include="src/Main.fs" />
   </ItemGroup>
 
   <ItemGroup>
